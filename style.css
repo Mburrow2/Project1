@@ -1,13 +1,17 @@
 .menu {
-    padding: 40px;
+    padding: 80px;
     text-align: right;
     background: #000000;
     color: white;
     font-size: 30px;
+    display: inline-block;
+    border-right: 4px solid red;
   }
 
   #logo{
     text-align: left;
+    height: 50px;
+    width: 50px;
   }
 
 
@@ -16,4 +20,12 @@
     background: #000000;
     color: white;
     font-size: 30px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
   }
