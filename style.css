@@ -6,12 +6,12 @@
     font-size: 30px;
   }
 
-  .logo{
-    box-align: left;
+  #logo{
+    text-align: left;
   }
 
 
-  .generalnav{
+  #generalnav{
     text-align: left;
     background: #000000;
     color: white;
