@@ -7,12 +7,11 @@
   }
 
   .logo{
-    text-align: left;
+    box-align: left;
   }
 
 
   .generalnav{
-    padding: 40px;
     text-align: left;
     background: #000000;
     color: white;
