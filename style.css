@@ -83,15 +83,20 @@
   }
 
 
-  #facebook{
-    text-align: right;
-    float: right;
-    max-width: 100%;
-    max-height: 100%;
+  .facebook{
+    padding: 0px;
     width: 40px;
-    height: 40px;
-    object-fit: contain;
+    text-decoration: none;
+    text-align: right;
 
+  }
+
+  .facebook:hover{
+    opacity: 0.7;
+  }
+
+  .facebook{
+    color:white;
   }
 
 
