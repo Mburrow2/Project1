@@ -32,13 +32,13 @@
     text-align: center;
   }
 
-  #link1:link{
+  .link1{
     color: white;
     background-color: white;
     text-decoration: none;
   }
 
-  #link1:active{
+  .link1:link, .link1:active{
     color: white;
     background-color: white;
     text-decoration: none;
@@ -56,16 +56,16 @@
 
   }
 
-  #facebook{
-    text-align: right;
+  .facebook{
+    text-align: justify;
     height: 1px;
     width: 1px;
 
   }
 
-  #twitter{
-    text-align: right;
-    height: 1px;
-    width: 1px;
+  .twitter{
+    text-align: justify;
+    height: 10px;
+    width: 10px;
 
   }
