@@ -46,7 +46,7 @@
 
   .footer{
   
-    padding: 75px;
+    padding: 50px;
     text-align: left;
     background: #000000;
     color: white;
@@ -56,14 +56,14 @@
 
   #facebook{
     text-align: right;
-    height: 10px;
-    width: 10px;
+    height: 1px;
+    width: 1px;
 
   }
 
   #twitter{
     text-align: right;
-    height: 10px;
-    width: 10px;
+    height: 1px;
+    width: 1px;
 
   }
