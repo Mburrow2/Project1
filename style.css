@@ -6,6 +6,7 @@
   }
 
   .menu a{
+    float: left;
     color:white;
     text-align: right;
     padding: 12px;
@@ -19,8 +20,8 @@
 
   #logo{
     text-align: left;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
   }
 
   .menu a:hover{
@@ -31,6 +32,10 @@
   .menu a.active{
     background-color: transparent;
     color: white;
+  }
+
+  .menu-right{
+    float:right;
   }
 
 
