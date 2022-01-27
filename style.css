@@ -84,3 +84,8 @@
     object-fit: contain;
 
   }
+
+
+  body{
+    background-color: lightgray;
+  }
