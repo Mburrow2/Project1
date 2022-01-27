@@ -1,5 +1,5 @@
 .menu {
-    padding: fill;
+    padding: 80px;
     text-align: right;
     background: #000000;
     color: white;
@@ -33,7 +33,7 @@
     text-align: center;
   }
 
-  a:link, a:active{
+  #link1:link, #link1:active{
     color: white;
     background-color: transparent;
     text-decoration: none;
@@ -42,7 +42,7 @@
 
   .footer{
   
-    padding: fill;
+    padding: 75px;
     text-align: left;
     background: #000000;
     color: white;
