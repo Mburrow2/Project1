@@ -7,7 +7,7 @@
     
   }
 
-  footer{
+  .footer{
   
     text-align: right;
     background: #000000;
@@ -16,7 +16,7 @@
 
   }
 
- body {
+ .body {
     margin: 0
   }
 
