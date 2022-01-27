@@ -36,22 +36,27 @@
   }
 
 
-  #generalnav{
+  .generalnav {
+    padding: 20px 30px;
+    overflow: hidden;
+    background: #000000;
+    
+  }
+  .generalnav a{
     color:white;
-    text-align: left;
-    float: left;
+    text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 18;
    
   }
 
-  #generalnav a:hover{
+  .generalnav a:hover{
     background-color: transparent;
     color: white;
   }
 
-  #generalnav a.active{
+  .generalnav a.active{
     background-color: transparent;
     color: white;
   }
@@ -80,8 +85,6 @@
 
   #twitter{
     text-align: right;
-    height: 15px;
-    width: 15px;
     object-fit:contain;
 
   }
