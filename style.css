@@ -1,10 +1,23 @@
 .menu {
-    margin: 0;
+    width:100%;
     text-align: right;
     background: #000000;
     color: white;
     font-size: 20px;
     
+  }
+
+  footer{
+    width:100%;
+    text-align: right;
+    background: #000000;
+    color: white;
+    font-size: 20px;
+
+  }
+
+ body {
+    margin: 0
   }
 
   #logo{
@@ -25,11 +38,11 @@
     text-align: center;
   }
 
-  p{
+  #maindesc{
     text-align: center;
   }
 
-  a:link, a:active {
+  href:link, href:active {
     color: white;
     background-color: transparent;
     text-decoration: none;
