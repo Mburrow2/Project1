@@ -39,11 +39,11 @@
   .generalnav {
     padding: 20px 30px;
     overflow: hidden;
-    background: #000000;
+    background: lightgray;
     
   }
   .generalnav a{
-    color:white;
+    color:black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -53,12 +53,12 @@
 
   .generalnav a:hover{
     background-color: transparent;
-    color: white;
+    color: black;
   }
 
   .generalnav a.active{
     background-color: transparent;
-    color: white;
+    color: black;
   }
 
   h1{
