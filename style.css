@@ -1,5 +1,5 @@
 .menu {
-    padding: 80px;
+    padding: fill;
     text-align: right;
     background: #000000;
     color: white;
@@ -31,7 +31,7 @@
     text-align: center;
   }
 
-  :link, :active {
+  .menu:link, .menu:active {
     color: white;
     background-color: transparent;
     text-decoration: none;
@@ -40,10 +40,30 @@
 
   .footer{
   
-    padding: 80px;
+    padding: fill;
     text-align: left;
     background: #000000;
     color: white;
     font-size: 20px;
+
+  }
+
+  #facebook{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 50%;
+
+  }
+
+  #twitter{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 50%;
 
   }
