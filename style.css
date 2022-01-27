@@ -7,18 +7,7 @@
     
   }
 
-  .footer{
-  
-    text-align: right;
-    background: #000000;
-    color: white;
-    font-size: 20px;
-
-  }
-
- .body {
-    margin: 0
-  }
+ 
 
   #logo{
     text-align: left;
@@ -42,8 +31,19 @@
     text-align: center;
   }
 
-  href:link, href:active {
+  a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
+  }
+
+
+  .footer{
+  
+    padding: 60px;
+    text-align: right;
+    background: #000000;
+    color: white;
+    font-size: 20px;
+
   }
