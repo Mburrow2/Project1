@@ -38,7 +38,7 @@
 
   #generalnav{
     color:white;
-    text-align: center;
+    text-align: right;
     padding: 12px;
     text-decoration: none;
     font-size: 18;
@@ -79,10 +79,9 @@
 
   #twitter{
     text-align: right;
-    float: right;
-    height: 5px;
-    width: 5px;
-    object-fit: contain;
+    float: center;
+    height: 15px;
+    width: 15px;
 
   }
 
