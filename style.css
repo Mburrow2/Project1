@@ -86,6 +86,8 @@
   #twitter{
     text-align: right;
     object-fit:contain;
+    height: 20px;
+    width: 20px;
 
   }
 
