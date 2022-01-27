@@ -85,19 +85,20 @@
 
   .facebook{
     padding: 0px;
-    width: 2px;
-    height: 2px;
+    width: 8px;
+    height: 8px;
     text-decoration: none;
     text-align: right;
 
   }
 
-  .facebook:hover{
-    opacity: 0.7;
-  }
+  .twitter{
+    padding: 0px;
+    width: 8px;
+    height: 8px;
+    text-decoration: none;
+    text-align: right;
 
-  .facebook{
-    color:white;
   }
 
 
