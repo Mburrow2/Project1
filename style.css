@@ -38,13 +38,12 @@
 
   #generalnav{
     color:white;
-    text-align: right;
-    float:right;
+    text-align: left;
+    float:left;
     padding: 12px;
     text-decoration: none;
     font-size: 18;
-    line-height: 30px;
-    border-radius: 6px;
+   
   }
 
   #generalnav a:hover{
