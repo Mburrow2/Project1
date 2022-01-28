@@ -8,7 +8,7 @@
   .menu a{
     color:white;
     text-align: right;
-    float:right;
+    float:inline-end;
     padding: 12px;
     text-decoration: none;
     font-size: 18;
