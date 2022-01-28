@@ -18,12 +18,7 @@
 
   
 
-  #logo{
-    text-align: left;
-    position: fixed;
-    height: 20px;
-    width: 20px;
-  }
+ 
 
   .menu a:hover{
     background-color: transparent;
@@ -74,7 +69,7 @@
   .footer {
     position: fixed;
     left: 0;
-    bottom: 10%;
+    bottom: 0;
     width: 100%;
     background-color: black;
     color: white;
@@ -83,23 +78,6 @@
   }
 
 
-  .facebook{
-    padding: 0px;
-    width: 5px;
-    height: 5px;
-    text-decoration: none;
-    text-align: right;
-    object-fit: contain;
-
-  }
-
-  .twitter{
-    text-align: left;
-    position: fixed;
-    width: 10px;
-    height: 10px;
-
-  }
 
 
   body{
