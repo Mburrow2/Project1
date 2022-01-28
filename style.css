@@ -85,8 +85,8 @@
 
   .facebook{
     padding: 0px;
-    width: 8px;
-    height: 12px;
+    width: 20px;
+    height: 20px;
     text-decoration: none;
     text-align: right;
 
@@ -94,8 +94,8 @@
 
   .twitter{
     padding: 0px;
-    width: 8px;
-    height: 12px;
+    width: 20px;
+    height: 20px;
     text-decoration: none;
     text-align: right;
 
@@ -106,6 +106,37 @@
     background-color: lightgray;
   }
 
-  li{
+
+  .cat, .brand{
     text-align: center;
+  }
+
+  
+  .cat, .brand a:hover{
+    background-color: transparent;
+    color: black;
+  }
+
+  .cat, .brand a.active{
+    background-color: transparent;
+    color: black;
+  }
+
+  .buttons {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .form{
+    size: 15px;
+  }
+
+  #Details{
+    size: 30px;
   }
