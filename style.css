@@ -23,7 +23,7 @@
     position: fixed;
     height: 20px;
     width: 20px;
-    object-fit: scale-down;
+    object-fit: contain;
   }
 
   .menu a:hover{
