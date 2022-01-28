@@ -89,6 +89,7 @@
     height: 20px;
     text-decoration: none;
     text-align: right;
+    object-fit: cover;
 
   }
 
@@ -98,6 +99,7 @@
     height: 20px;
     text-decoration: none;
     text-align: right;
+    object-fit: cover;
 
   }
 
@@ -112,12 +114,21 @@
   }
 
   
-  .cat, .brand a:hover{
+  .cat a:hover{
     background-color: transparent;
     color: black;
   }
 
-  .cat, .brand a.active{
+  .cat a.active{
+    background-color: transparent;
+    color: black;
+  }
+  .brand a:hover{
+    background-color: transparent;
+    color: black;
+  }
+
+  .brand a.active{
     background-color: transparent;
     color: black;
   }
@@ -135,8 +146,15 @@
 
   .form{
     size: 15px;
+    text-align: center;
   }
 
   #Details{
     size: 30px;
   }
+
+  .mainbody{
+    text-align: center;
+    display: inline-block;
+  }
+
