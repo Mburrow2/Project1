@@ -20,6 +20,7 @@
 
   #logo{
     text-align: left;
+    position: fixed;
     height: 80px;
     width: 20px;
     object-fit: contain;
@@ -89,7 +90,7 @@
     height: 5px;
     text-decoration: none;
     text-align: right;
-    object-fit: cover;
+    object-fit: contain;
 
   }
 
@@ -99,7 +100,7 @@
     height: 5px;
     text-decoration: none;
     text-align: right;
-    object-fit: cover;
+    object-fit: contain;
 
   }
 
@@ -109,9 +110,18 @@
   }
 
 
-  .cat, .brand a{
+  .brand a{
     text-align: center;
     color:black;
+    background: lightgray;
+    text-decoration: none;
+  }
+
+  .cat a{
+    text-align: center;
+    color:black;
+    background: lightgray;
+    text-decoration: none;
   }
 
   
