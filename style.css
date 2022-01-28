@@ -72,7 +72,7 @@
 
 
   .footer {
-    position: bottom;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -85,8 +85,8 @@
 
   .facebook{
     padding: 0px;
-    width: 20px;
-    height: 20px;
+    width: 5px;
+    height: 5px;
     text-decoration: none;
     text-align: right;
     object-fit: cover;
@@ -95,8 +95,8 @@
 
   .twitter{
     padding: 0px;
-    width: 20px;
-    height: 20px;
+    width: 5px;
+    height: 5px;
     text-decoration: none;
     text-align: right;
     object-fit: cover;
@@ -109,7 +109,7 @@
   }
 
 
-  .cat, .brand{
+  .cat, .brand a{
     text-align: center;
     color:black;
   }
@@ -135,9 +135,9 @@
   }
 
   .buttons {
-    background-color: transparent;
+  
     border: none;
-    color: white;
+    color: black;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -156,6 +156,9 @@
 
   .mainbody{
     text-align: center;
-    display: inline-block;
+  }
+
+  .det{
+    text-align: center;
   }
 
