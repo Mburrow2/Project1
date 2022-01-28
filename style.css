@@ -110,6 +110,13 @@
   }
 
 
+  .cat{
+    text-align: center;
+  }
+  .brand{
+    text-align: center;
+  }
+
   .brand a{
     text-align: center;
     color:black;
