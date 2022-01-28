@@ -21,9 +21,9 @@
   #logo{
     text-align: left;
     position: fixed;
-    height: 80px;
+    height: 20px;
     width: 20px;
-    object-fit: contain;
+    object-fit: scale-down;
   }
 
   .menu a:hover{
@@ -96,11 +96,11 @@
 
   .twitter{
     padding: 0px;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     text-decoration: none;
-    text-align: right;
-    object-fit: contain;
+    object-position: right;
+    object-fit: scale-down;
 
   }
 
@@ -109,13 +109,6 @@
     background-color: lightgray;
   }
 
-
-  .cat{
-    text-align: center;
-  }
-  .brand{
-    text-align: center;
-  }
 
   .brand a{
     text-align: center;
