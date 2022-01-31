@@ -18,12 +18,12 @@
 
   
   #logo {
-    width: 80px;
-    height: 80px;
-    padding: 0;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
     object-fit: contain;
     text-align: left;
-    margin-left: 20px;
+
 }
 
 
