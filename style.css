@@ -159,7 +159,8 @@
   }
 
   #twitter{
-    margin-right: 10px;
+    width: 5px;
+    height: 5px;
     position: absolute;
     object-fit: contain;
   }
