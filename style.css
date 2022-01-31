@@ -23,6 +23,7 @@
     padding: 0;
     object-fit: contain;
     text-align: left;
+    margin-left: 20px;
 }
 
 
@@ -155,5 +156,11 @@
 
   .det{
     text-align: center;
+  }
+
+  #twitter{
+    margin-right: 10px;
+    position: absolute;
+    object-fit: contain;
   }
 
