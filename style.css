@@ -1,8 +1,9 @@
 .menu {
-    position: relative;  
+    position: absolute;  
     left: 0;
     top: 0;
     width: 100%;
+    height: 50px;
     overflow: hidden;
     background: #000000;
     
@@ -97,8 +98,10 @@
 
   body{
     background-color: lightgray;
-    margin: 0 0 100px;
-    padding: 25px;
+    top: 50px;
+    bottom: 30px;
+    height: 100%;
+    overflow: hidden;
   }
 
 
