@@ -22,7 +22,7 @@
     height: auto;
     padding: 0px;
     object-fit: contain;
-    text-align: center;
+    text-align: left;
     
 
 }
@@ -72,7 +72,7 @@
 
   #maindesc{
     text-align: center;
-    font-size: 14px;
+    font-size: 25px;
   }
 
 
