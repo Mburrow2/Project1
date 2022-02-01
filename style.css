@@ -164,8 +164,8 @@
   }
 
   #twitter{
-    width: 5px;
-    height: 5px;
+    width: auto;
+    height: auto;
     object-fit: contain;
   }
 
