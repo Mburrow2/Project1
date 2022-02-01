@@ -1,9 +1,5 @@
 .menu {
-    position: absolute;  
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 50px;
+    padding: 30px 40px;
     overflow: hidden;
     background: #000000;
     
