@@ -22,7 +22,7 @@
     height: auto;
     padding: 0px;
     object-fit: contain;
-    text-align: end;
+    text-align: center;
 
 }
 
@@ -76,7 +76,7 @@
 
 
   .footer {
-    position: static;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -159,9 +159,8 @@
   }
 
   #twitter{
-    width: 2px;
-    height: 2px;
-    object-fit: contain;
-    text-align: start;
+    width: 5px;
+    height: 5px;
+    object-fit: fill;
   }
 
