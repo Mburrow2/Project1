@@ -1,4 +1,5 @@
 .menu {
+    position: absolute;  
     left: 0;
     top: 0;
     width: 100%;
@@ -9,7 +10,7 @@
 
   .menu a{
     color:white;
-    text-align: center;
+    text-align: right;
     float: left;
     padding: 12px;
     text-decoration: none;
