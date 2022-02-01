@@ -23,6 +23,7 @@
     padding: 0px;
     object-fit: contain;
     text-align: right;
+    float: left;
 
 }
 
@@ -76,9 +77,9 @@
 
 
   .footer {
-    position: sticky;
+    position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: auto;
     width: 100%;
     background-color: black;
     color: white;
