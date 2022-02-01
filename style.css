@@ -94,7 +94,6 @@
 
   body{
     background-color: lightgray;
-    text-align: center;
     
   }
 
@@ -168,6 +167,6 @@
     min-height: 100%;
   }
 
-button{
+#button{
   text-align: center;
 }
