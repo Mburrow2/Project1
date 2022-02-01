@@ -22,7 +22,7 @@
     height: auto;
     padding: 0px;
     object-fit: contain;
-    text-align: left;
+    text-align: end;
 
 }
 
@@ -159,8 +159,9 @@
   }
 
   #twitter{
-    width: auto;
-    height: auto;
+    width: 2px;
+    height: 2px;
     object-fit: contain;
+    text-align: start;
   }
 
