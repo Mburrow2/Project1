@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <head> 
 <link rel="stylesheet" href="style.css"> 
 
@@ -25,9 +25,9 @@
    <a> Sign up</a>
    
 
-
+   </div>
    </nav>
-</div> 
+
 
 
 <div class = "generalnav"> 
@@ -41,37 +41,37 @@
    <form>  
       <div class = "form">
       <label for="Topic">Topic:</label>  
-      <input type="text" name="Topic">  
+      <input type="text" id = "Topic" name="Topic">  
       <br>
       <label for="Title">Title:</label>    
-      <input type="text" name="Title">  
+      <input type="text" id = "Title" name="Title">  
       <br>
       <label for="Host">Host:</label>  
-      <input type="text" name="Host">  
+      <input type="text" id = "Host" name="Host">  
       <br>  
       <label for="Details">Details:</label>  
       <input type="text" id = "Details" name="Details"> 
       <br>  
       <label for="Where">Where:</label>  
-      <input type="text" name="Where">  
+      <input type="text" id = "Where" name="Where">  
       <br>
       <label for="Date">When:</label>
-      <input type="date" name="Date">
+      <input type="date" id = "Date" name="Date">
       <br>
       <label for="STime">Start:</label>
-      <input type="time" name="STime">
+      <input type="time" id = "STime" name="STime">
       <br>
       <label for="ETime">End:</label>
-      <input type="time" name="ETime">
+      <input type="time" id = "ETime" name="ETime">
       <br>
       <label for="ImageURL">ImageURL:</label>    
-      <input type="text" name="ImageURL">  
+      <input type="text" id = "ImageURL" name="ImageURL">  
       <br>
 
 
-      <a href="connections.html">
-         <button type="button">Create Connection</button>
-      </a>
+
+      <button onclick="window.location.href = 'connections.html';">Create Connection</button>
+      
    </div>
 
    
