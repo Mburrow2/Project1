@@ -8,6 +8,7 @@
   .menu a{
     color:white;
     text-align: center;
+    float: left;
     padding: 12px;
     text-decoration: none;
     font-size: 18;
@@ -21,8 +22,7 @@
     height: auto;
     padding: 0px;
     object-fit: contain;
-    text-align: left;
-    float: left;
+    
 
 }
 
@@ -159,9 +159,6 @@
   }
 
   #twitter{
-    width: auto;
-    height: auto;
-    padding: 0px;
     object-fit: contain;
   }
 
