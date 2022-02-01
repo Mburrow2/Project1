@@ -164,11 +164,9 @@
   }
 
   #twitter{
-    width: 10px;
-    height: 10px;
-    padding: 0px;
+    width: 5px;
+    height: 5px;
     object-fit: contain;
-    float: right;
   }
 
   html{
