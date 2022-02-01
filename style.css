@@ -22,6 +22,7 @@
     height: auto;
     padding: 0px;
     object-fit: contain;
+    text-align: left;
     
 
 }
@@ -76,9 +77,9 @@
 
 
   .footer {
-    position: fixed;
+    position: relative;
     left: 0;
-    bottom: auto;
+    bottom: 0;
     width: 100%;
     background-color: black;
     color: white;
