@@ -1,5 +1,7 @@
 .menu {
-    padding: 20px 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
     overflow: hidden;
     background: #000000;
     
@@ -163,11 +165,6 @@
     text-align: center;
   }
 
-  #twitter{
-    width: auto;
-    height: auto;
-    object-fit: contain;
-  }
 
   html{
     position: relative;
