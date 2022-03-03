@@ -1,0 +1,20 @@
+<%- include('../partials/header.ejs')%>
+    <div class = "content">
+      <h3><%= connection.title %></h3> 
+      <h5>Starting on: <%= connection.createdAt %></h5>
+      <h5>Ending Within: <%= connection.endtime %></h5>
+      <h5>Hosted by <%= connection.author %></h5>
+
+      <div id = "connection"><%= connection.content %></div>
+      <div id = "connection">Located at: <%= connection.location %></div>
+
+      <img src="<%connection.imageurl %>">
+
+      <form>
+        <button type = "submit" formmethod="GET" formaction="/connections/<%= connection.id %>/edit">Edit</button>
+        <button type = "submit" formmethod="POST" formaction="/connections/<%= connection.id %>?_method=DELETE">Delete</button>
+
+      </form>
+    </div>
+    
+<%- include('../partials/footer.ejs')%>

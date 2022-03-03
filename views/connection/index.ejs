@@ -1,0 +1,14 @@
+<%- include('../partials/header.ejs')%>
+    <div class = "content">
+       <%  if(connections.length){ %>
+             <p>Choose to Connect between Shoe Brands or Shoe Types</p>
+            <% connections.forEach(connection=>{ %>
+              <a href = "/connections/<%= connection.id%>"> <p><%= connection.topic %></p> </a>
+           <%  });
+         }  else{ %>
+            <p>There are no connections to display.</p>
+
+       <%  } %>
+    </div>
+    
+<%- include('../partials/footer.ejs')%>

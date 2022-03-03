@@ -1,0 +1,39 @@
+<%- include('../partials/header.ejs')%>
+<div class = "content">
+    <form method = "POST" action = '/connections/<%= connection.id %>?_method=PUT'>
+        <table>
+            <tr>
+                <td><label for="author" >Host</label></td>
+                <td><input type="text" id="author" name="author" value = "<%= connection.author%>" class = "fixed-width"></td>
+            </tr>
+            <tr>
+                <td><label for="topic" >Topic</label></td>
+                <td><input type="text" id="topic" name="topic" value = "<%= connection.topic%>" class = "fixed-width"></td>
+            </tr>
+            <tr>
+                <td><label for="imageurl" >Image</label></td>
+                <td><input type="text" id="imageurl" name="imageurl" value = "<%= connection.imageurl%>" class = "fixed-width"></td>
+            </tr>
+            <tr>
+                <td><label for="title" >Title</label></td>
+                <td><input type="text" id="title" name="title" value = "<%= connection.title%>" class = "fixed-width"></td>
+            </tr>
+            <tr><td class = "align-top"><label for="content">Details</label></td>
+                <td><textarea rows="5" id="content" name="content" class = "fixed-width"><%= connection.content%></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="location" >Location</label></td>
+                <td><input type="text" id="location" name="location" value = "<%= connection.location%>" class = "fixed-width"></td>
+            </tr>
+            <tr>
+                <td><label for="endtime" >Ending Time Range</label></td>
+                <td><input type="text" id="endtime" name="endtime" value = "<%= connection.endtime%>" class = "fixed-width"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class = "align-right"><button>Submit</button></td>
+            </tr>
+            </table>        
+    </form>
+
+    </div>
+    <%- include('../partials/footer.ejs')%>
